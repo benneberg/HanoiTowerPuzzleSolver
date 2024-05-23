@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 600px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: whitesmoke;
+}
+
+.tower {
+    width: 10px;
+    height: 150px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: relative;
+    background: #747474;
+}
+
+.disk {
+    height: 20px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    transition: transform 0.5s;
+    border-radius: 25px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+
+#disk1 {
+    width: 60px;
+}
+
+#disk2 {
+    width: 80px;
+}
+
+#disk3 {
+    width: 100px;
+}
+#solveButton {
+    margin: .5rem;
+    cursor: pointer;
+    background: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: .4rem 1rem;
+}
+#stepCounter {
+    color: white;
+    display: inline;
+}
+footer {
+    background: grey;
+    width: 100%;
+    max-width: 600px;
+}
